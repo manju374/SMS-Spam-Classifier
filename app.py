@@ -1,10 +1,8 @@
 import streamlit as st
 import joblib
 
-# Load saved model
 model = joblib.load('spam_classifier_model.pkl')
 
-# Streamlit App
 st.set_page_config(page_title="SMS Spam Classifier", page_icon="📧")
 
 st.title("📧 SMS / Email Spam Classifier")
