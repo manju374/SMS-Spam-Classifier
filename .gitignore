@@ -1,0 +1,39 @@
+# Ignore Python virtual environments
+venv/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode specific settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and credentials files (if any)
+.env
+.env.*
+
+# Ignore model weights / logs (optional, if applicable)
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.log
+
+# Ignore Python egg metadata
+*.egg-info/
+dist/
+build/
+
+# Ignore pytest cache
+.pytest_cache/
